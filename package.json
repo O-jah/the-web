@@ -1,0 +1,40 @@
+{
+  "name": "ojah-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OJAH — Organisation for Justice & Accountability in the Horn of Africa. Next.js frontend with Payload CMS.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "payload": "payload",
+    "generate:types": "payload generate:types"
+  },
+  "dependencies": {
+    "@payloadcms/db-sqlite": "3.90.1",
+    "@payloadcms/email-nodemailer": "3.90.1",
+    "@payloadcms/next": "3.90.1",
+    "@payloadcms/richtext-lexical": "3.90.1",
+    "eslint-config-next": "15.4.11",
+    "graphql": "^16.9.0",
+    "next": "15.4.11",
+    "nodemailer": "^6.9.15",
+    "payload": "3.90.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=18.20.0"
+  }
+}
